@@ -1,0 +1,12 @@
+mixin planets(ptl1, ptl2, rut1, rut2, alt1, alt2)
+  .planets__wrap
+    .planets__sub-wrap
+      .planets__wrapper
+        figure.planets__figure
+          img(src="img/"+rut1, alt=""+alt1).planets__svg
+        p.planets__nameP=ptl1
+    .planets__sub-wrap
+      .planets__wrapper
+        figure.planets__figure
+          img(src="img/"+rut2, alt=""+alt2).planets__svg
+        p.planets__nameP=ptl2

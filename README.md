@@ -1,0 +1,1 @@
+Usando la regla de 3 que se enseña en las escuelas se puede descubrir tu peso si estuvieras en otros planetas, usando la gravedad de la Tierra que es 9.8, el peso del usuario y la gravedad en el planeta deseado

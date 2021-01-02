@@ -1,0 +1,32 @@
+include temp/_mixin.pug
+
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    script(src="https://cdn.jsdelivr.net/npm/sweetalert2@10")
+    link(rel="shortcut icon", href="img/sistema-solar.svg", type="image/x-icon")
+    link(rel="stylesheet", href="css/css/planets.css")
+    title Tu peso en otro planeta
+  body
+    section.planets
+    .wrap
+      article.planets__article
+        .planets__wrap
+          h2.planets__text Elige un planeta
+          //- +planets("primer planeta", "segundo planeta", "ruta del primer planeta", "ruta del segundo plentea", "alt1", "alt2")
+        +planets("Mercurio", "Venus", "mercury.svg", "venus.svg", "Planeta Mercurio", "Planeta Venus")
+        +planets("Marte", "Júpiter", "mars.svg", "jupiter.svg", "Planeta Marte", "Planeta Júpiter")
+        +planets("Saturno", "Neptuno", "saturn.svg", "neptune.svg", "Planeta Saturno", "Planeta Neptuno")
+        +planets("Urano", "Plutón", "uranus.svg", "pluton.svg", "Planeta Urano", "Planeta Plutón")
+        .planets__wrap
+          form
+            .planets__text-box
+              input(type="number" placeholder="Ingresa tu peso en kilos").planets__input-form.planets__peso
+            .planets__text-box
+              input(type="text" placeholder="Ingresa el planeta").planets__input-form.planets__op
+        .planets__wrap
+          button(type="button").planets__btn-form Enviar
+
+    script(src="js/main-dist.js")

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link rel="shortcut icon" href="img/sistema-solar.svg" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/css/planets.css"/>
+    <title>Tu peso en otro planeta</title>
+  </head>
+  <body>
+    <section class="planets"></section>
+    <div class="wrap">
+      <article class="planets__article">
+        <div class="planets__wrap">
+          <h2 class="planets__text">Elige un planeta</h2>
+        </div>
+        <div class="planets__wrap">
+          <div class="planets__sub-wrap">
+            <div class="planets__wrapper">
+              <figure class="planets__figure"><img class="planets__svg" src="img/mercury.svg" alt="Planeta Mercurio"/></figure>
+              <p class="planets__nameP">Mercurio</p>
+            </div>
+          </div>
+          <div class="planets__sub-wrap">
+            <div class="planets__wrapper">
+              <figure class="planets__figure"><img class="planets__svg" src="img/venus.svg" alt="Planeta Venus"/></figure>
+              <p class="planets__nameP">Venus</p>
+            </div>
+          </div>
+        </div>
+        <div class="planets__wrap">
+          <div class="planets__sub-wrap">
+            <div class="planets__wrapper">
+              <figure class="planets__figure"><img class="planets__svg" src="img/mars.svg" alt="Planeta Marte"/></figure>
+              <p class="planets__nameP">Marte</p>
+            </div>
+          </div>
+          <div class="planets__sub-wrap">
+            <div class="planets__wrapper">
+              <figure class="planets__figure"><img class="planets__svg" src="img/jupiter.svg" alt="Planeta Júpiter"/></figure>
+              <p class="planets__nameP">Júpiter</p>
+            </div>
+          </div>
+        </div>
+        <div class="planets__wrap">
+          <div class="planets__sub-wrap">
+            <div class="planets__wrapper">
+              <figure class="planets__figure"><img class="planets__svg" src="img/saturn.svg" alt="Planeta Saturno"/></figure>
+              <p class="planets__nameP">Saturno</p>
+            </div>
+          </div>
+          <div class="planets__sub-wrap">
+            <div class="planets__wrapper">
+              <figure class="planets__figure"><img class="planets__svg" src="img/neptune.svg" alt="Planeta Neptuno"/></figure>
+              <p class="planets__nameP">Neptuno</p>
+            </div>
+          </div>
+        </div>
+        <div class="planets__wrap">
+          <div class="planets__sub-wrap">
+            <div class="planets__wrapper">
+              <figure class="planets__figure"><img class="planets__svg" src="img/uranus.svg" alt="Planeta Urano"/></figure>
+              <p class="planets__nameP">Urano</p>
+            </div>
+          </div>
+          <div class="planets__sub-wrap">
+            <div class="planets__wrapper">
+              <figure class="planets__figure"><img class="planets__svg" src="img/pluton.svg" alt="Planeta Plutón"/></figure>
+              <p class="planets__nameP">Plutón</p>
+            </div>
+          </div>
+        </div>
+        <div class="planets__wrap">
+          <form>
+            <div class="planets__text-box">
+              <input class="planets__input-form planets__peso" type="number" placeholder="Ingresa tu peso en kilos"/>
+            </div>
+            <div class="planets__text-box">
+              <input class="planets__input-form planets__op" type="text" placeholder="Ingresa el planeta"/>
+            </div>
+          </form>
+        </div>
+        <div class="planets__wrap">
+          <button class="planets__btn-form" type="button">Enviar</button>
+        </div>
+      </article>
+    </div>
+    <script src="js/main-dist.js"></script>
+  </body>
+</html>
